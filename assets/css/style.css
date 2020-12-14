@@ -274,7 +274,7 @@ img{
     font-size: 18px;
     background-color:rgb(72, 201, 179);
     border: 1px solid black;
-    border-radius: 10%;;
+    border-radius: 16px;
     color: var(--first-color)
 }
 
@@ -500,9 +500,29 @@ img{
     }
 }
 
+.fa-external-link-alt {
+    padding: .5em;
+}
+
 @media screen and (min-width: 1024px){
     .bd-grid{
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media screen and (max-width: 1000px){
+    .home__img {
+        width: 430px;
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 894px){
+    .home__img {
+        width: 300px;
+        right: 10%;
+        
+    }
+
 }
