@@ -518,11 +518,9 @@ img{
     }
 }
 
-@media screen and (max-width: 894px){
-    .home__img {
-        width: 300px;
-        right: 10%;
+
+@media screen and (max-width: 895px){
+    .home__title {
+        display: none;
         
     }
-
-}
